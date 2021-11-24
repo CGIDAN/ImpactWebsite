@@ -1,0 +1,39 @@
+@font-face{
+    font-family:'Futura PT';
+    src: url(fonts/)
+}
+
+body{
+    color: #66CDAA;
+    color: hsl(300,80&,50%);
+    font-family: Futura PT, Verdana, Arial,
+        sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    background-color: : aquamarine;
+    color:darkblue;
+    font-family: Futura PT; fantasy;
+    font-size: 40px;
+    text-align: center;
+        }
+p{
+    line-height: 1.4em;
+    text-align: left;
+}
+
+
+.character_name {
+    color:darkgreen
+}
+
+span.character_name {
+    color:crimson;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#last {
+    color:purple;
+}
