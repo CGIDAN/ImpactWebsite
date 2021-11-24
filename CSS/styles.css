@@ -12,15 +12,23 @@ body{
 }
 
 h1, h2 {
-    background-color: : aquamarine;
+    background-color:aquamarine;
     color:darkblue;
     font-family: Futura PT; fantasy;
     font-size: 40px;
     text-align: center;
+    word-spacing: 0.1em;
+    letter-spacing: 0.1em;
         }
 p{
     line-height: 1.4em;
     text-align: left;
+    text-indent: 5px;
+}
+
+p:first-letter {
+    font-size: 110%;
+    font-weight: bold;
 }
 
 
