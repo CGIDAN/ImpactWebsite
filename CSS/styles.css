@@ -31,6 +31,26 @@ p:first-letter {
     font-weight: bold;
 }
 
+#divbox{
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    background-color: aquamarine;
+    border-spacing: 25px;
+    border-width: 5px;
+    border: 4px outset darkblue;
+    
+}
+
+.pClass{
+    width: 75%;
+    background-color: beige;
+    border-style: solid;
+    border-width: thick; 
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
 
 .character_name {
     color:darkgreen
