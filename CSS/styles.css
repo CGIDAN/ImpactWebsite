@@ -1,19 +1,107 @@
+
+{
+  box-sizing: border-box;
+}
 @font-face{
     font-family:'Futura PT';
     src: url(fonts/)
 }
-
 body{
     color: #66CDAA;
     color: hsl(300,80&,50%);
     font-family: Futura PT, Verdana, Arial,
         sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-h1, h2 {
-    background-color:aquamarine;
-    color:darkblue;
+.header {
+  padding: 50px;
+  text-align: center; 
+  background: #1abc9c;
+  color: white; 
+}
+
+
+
+
+
+
+.links {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+
+.links a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none;
+}
+
+
+.links a.right {
+  float: right;
+}
+#
+
+.links a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
+
+/*layout*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%; 
+  background-color: #f1f1f1; 
+  padding: px; 
+}
+
+.main {
+  flex: 70%;
+  background-color: white; 
+  padding: 20px;
+}
+
+.img {
+  background-color:antiquewhite;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+ h2 {
+    background-color:#1abc9c;
+    color:azure;
     font-family: Futura PT; fantasy;
     font-size: 40px;
     text-align: center;
@@ -31,25 +119,33 @@ p:first-letter {
     font-weight: bold;
 }
 
-#divbox{
+#firstIndex{
     height: 500px;
-    width: 500px;
+    width: 600px;
     border-style: solid;
-    background-color: aquamarine;
+    background-color: #1abc9c;
     border-spacing: 25px;
     border-width: 5px;
-    border: 4px outset darkblue;
     
 }
 
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+
+
 .pClass{
-    width: 75%;
-    background-color: beige;
-    border-style: solid;
+    width: 45%;
+    background-color: none;
+    border-style: hidden;
     border-width: thick; 
     padding: 10px;
     margin: 20px;
-    text-align: center;
+    text-align: right;
 }
 
 .character_name {
@@ -65,3 +161,4 @@ span.character_name {
 #last {
     color:purple;
 }
+
