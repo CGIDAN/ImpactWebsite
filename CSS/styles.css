@@ -15,20 +15,15 @@ body{
 }
 
 .header {
-  padding: 50px;
+  padding: 30px;
   text-align: center; 
-  background: #1abc9c;
-  color: white; 
+  background: #ffd9b3;
+  color: gray; 
 }
-
-
-
-
-
 
 .links {
   overflow: hidden;
-  background-color: #333; 
+  background-color: #D3D3D3; 
 }
 
 
@@ -55,12 +50,6 @@ body{
 
 /*layout*/
 
-
-* {
-  box-sizing: border-box;
-}
-
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -69,30 +58,24 @@ body{
 .side {
   flex: 30%; 
   background-color: #f1f1f1; 
-  padding: px; 
+  padding: 30px; 
 }
 
 .main {
-  flex: 70%;
+  flex: 40%;
   background-color: white; 
-  padding: 20px;
+  padding: 30px;
 }
 
-.img {
-  background-color:antiquewhite;
-  width: 100%;
-  padding: 20px;
+img.medium{
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 10px;
+    float: center;
+
 }
-
-
-
-
-
-
-
-
-
-
 
 .header h1 {
   font-size: 40px;
@@ -100,7 +83,7 @@ body{
 
 
  h2 {
-    background-color:#1abc9c;
+    background-color:#b3e6cc;
     color:azure;
     font-family: Futura PT; fantasy;
     font-size: 40px;
@@ -108,7 +91,7 @@ body{
     word-spacing: 0.1em;
     letter-spacing: 0.1em;
         }
-p{
+.p{
     line-height: 1.4em;
     text-align: left;
     text-indent: 5px;
@@ -119,13 +102,17 @@ p:first-letter {
     font-weight: bold;
 }
 
-#firstIndex{
-    height: 500px;
-    width: 600px;
+.firstIndex{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 700px;
     border-style: solid;
-    background-color: #1abc9c;
+    background-color: #ccffe6;
     border-spacing: 25px;
-    border-width: 5px;
+    border-width: 2px;
+    text-align: center;
     
 }
 
@@ -139,13 +126,15 @@ p:first-letter {
 
 
 .pClass{
-    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     background-color: none;
     border-style: hidden;
     border-width: thick; 
     padding: 10px;
-    margin: 20px;
-    text-align: right;
+    margin: 40px;
+    text-align:left;
 }
 
 .character_name {
