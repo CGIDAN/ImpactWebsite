@@ -73,6 +73,16 @@ img.medium{
 
 }
 
+
+img.large{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    padding: 5px;
+    float: center;
+}
+
 .header h1 {
   font-size: 40px;
 }
@@ -86,6 +96,8 @@ img.medium{
     text-align: center;
     word-spacing: 0.1em;
     letter-spacing: 0.1em;
+    position: relative;
+     
         }
 .p{
     line-height: 1.4em;
@@ -109,6 +121,9 @@ p:first-letter {
     border-spacing: 25px;
     border-width: 2px;
     text-align: center;
+    position: relative;
+    top: 20px;
+    
     
 }
 
@@ -119,7 +134,48 @@ p:first-letter {
   width: 30%;
 }
 
+#divBox{
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    border: 5px outset #0088dd;
+    box-shadow: 20px 20px 20px #333333;
+    
+    background-image: url();
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
 
+ul{
+    list-style-type: square;
+}
+ol{
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+table{
+    width: 400px;
+    empty-cells: show;
+    border-spacing: 5px 20px;
+    border-collapse: separate;
+}
+td, th{
+    padding:30px;
+    border: 1px solid #0088dd;
+}
+th{
+    text-transform:uppercase;
+    text-align:left;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111111;
+    
+    
+    
+    
+    
+    
+}
 
 .pClass{
     margin-left: auto;
