@@ -2,10 +2,6 @@
 {
   box-sizing: border-box;
 }
-@font-face{
-    font-family:'Futura PT';
-    src: url(fonts/)
-}
 body{
     color: #66CDAA;
     color: hsl(300,80&,50%);
@@ -23,7 +19,7 @@ body{
 
 .links {
   overflow: hidden;
-  background-color: #D3D3D3; 
+  background-color: #808080; 
 }
 
 
@@ -83,7 +79,7 @@ img.medium{
 
 
  h2 {
-    background-color:#b3e6cc;
+    background-color:#40bf80;
     color:azure;
     font-family: Futura PT; fantasy;
     font-size: 40px;
@@ -109,7 +105,7 @@ p:first-letter {
     height: 150px;
     width: 700px;
     border-style: solid;
-    background-color: #ccffe6;
+    background-color: #40bf80;
     border-spacing: 25px;
     border-width: 2px;
     text-align: center;
@@ -138,7 +134,7 @@ p:first-letter {
 }
 
 .character_name {
-    color:darkgreen
+    color:white
 }
 
 span.character_name {
