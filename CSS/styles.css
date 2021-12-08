@@ -159,6 +159,7 @@ table{
     empty-cells: show;
     border-spacing: 5px 20px;
     border-collapse: separate;
+    padding-left: 250px;
 }
 td, th{
     padding:30px;
