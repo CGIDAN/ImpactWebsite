@@ -1,13 +1,9 @@
 
-{
-  box-sizing: border-box;
-}
 body{
     color: #66CDAA;
-    color: hsl(300,80&,50%);
     font-family: Futura PT, Verdana, Arial,
         sans-serif;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .header {
@@ -36,7 +32,6 @@ body{
 .links a.right {
   float: right;
 }
-#
 
 .links a:hover {
   background-color: #ddd; 
@@ -69,7 +64,7 @@ img.medium{
   margin-right: auto;
   width: 250px;
   padding: 10px;
-    float: center;
+    margin:0 auto;
 
 }
 
@@ -80,7 +75,7 @@ img.large{
     margin-right:auto;
     width:500px;
     padding: 5px;
-    float: center;
+    margin:0 auto;
 }
 
 .header h1 {
@@ -91,7 +86,7 @@ img.large{
  h2 {
     background-color:#40bf80;
     color:azure;
-    font-family: Futura PT; fantasy;
+    font-family: Futura PT;
     font-size: 40px;
     text-align: center;
     word-spacing: 0.1em;
@@ -114,8 +109,8 @@ p:first-letter {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width: 700px;
+    height: 180px;
+    width: 750px;
     border-style: solid;
     background-color: #40bf80;
     border-spacing: 25px;
@@ -172,17 +167,13 @@ th{
     border-bottom: 1px solid #111111;
     
     
-    
-    
-    
-    
 }
 
 .pClass{
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color: none;
+    background-color: white;
     border-style: hidden;
     border-width: thick; 
     padding: 10px;
